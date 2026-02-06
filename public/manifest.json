@@ -1,0 +1,27 @@
+{
+  "name": "Prodone - AI Product Development Studio",
+  "short_name": "Prodone",
+  "description": "Launch AI products in weeks, not months. We design and ship AI-powered products, agents, and platforms for startups and enterprises.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#DC2626",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/logo-nobg.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "technology"],
+  "lang": "en-US",
+  "dir": "ltr"
+}

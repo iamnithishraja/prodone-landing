@@ -28,6 +28,7 @@ import {
   IconSparkles,
 } from "@tabler/icons-react";
 import { useEffect, useCallback } from "react";
+import Link from "next/link";
 
 // Calendly popup function
 declare global {
@@ -1338,9 +1339,16 @@ export default function Home() {
       <footer className="border-t border-red-500/10 bg-black py-12">
         <div className="mx-auto max-w-7xl px-4">
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-            <div className="flex items-center gap-2 text-2xl font-bold text-white">
-              <span className="text-red-500">Pro</span>Done
-            </div>
+            <Link href="/" className="flex items-center gap-3 text-2xl font-bold text-white group" aria-label="Prodone Home">
+              <img 
+                src="/images/logo-nobg.png" 
+                alt="Prodone Logo" 
+                className="h-10 w-10 rounded-lg transition-transform group-hover:scale-105"
+                width={40}
+                height={40}
+              />
+              <span><span className="text-red-500">Pro</span>Done</span>
+            </Link>
             <div className="flex gap-8 text-sm text-neutral-400">
               <a href="#services" className="hover:text-red-400 transition-colors">
                 Services

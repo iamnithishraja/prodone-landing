@@ -26,8 +26,15 @@ export const FloatingNav = ({
         className
       )}
     >
-      <Link href="/" className="flex items-center gap-1 px-3 py-2 text-lg font-bold text-white sm:text-xl">
-        <span className="text-red-500">Pro</span>Done
+      <Link href="/" className="flex items-center gap-2 px-3 py-2 text-lg font-bold text-white sm:text-xl group" aria-label="Prodone Home">
+        <img 
+          src="/images/logo-nobg.png" 
+          alt="Prodone Logo" 
+          className="h-7 w-7 rounded-md transition-transform group-hover:scale-110 sm:h-8 sm:w-8"
+          width={32}
+          height={32}
+        />
+        <span className="hidden sm:inline"><span className="text-red-500">Pro</span>Done</span>
       </Link>
       
       <div className="hidden items-center gap-1 md:flex">

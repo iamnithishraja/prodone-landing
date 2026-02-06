@@ -1,0 +1,16 @@
+# Prodone - AI Product Development Studio
+# https://prodone.online
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://prodone.online/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Block common bot paths that don't need indexing
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
